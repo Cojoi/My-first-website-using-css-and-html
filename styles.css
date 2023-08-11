@@ -1,0 +1,401 @@
+body {
+    font: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+
+  
+  header {
+    padding: 20px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    color: #f8f8f8;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+
+main{
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+section{
+  flex: 1 1 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  color: #333;
+  position: relative;
+}
+
+  .welcome-section{
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .welcome-section h1{
+    font-size: 32px;
+  margin-bottom: 10px;
+
+  }
+
+  .welcome-section p{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .advertisement-section{
+    background-color: #f8f8f8;
+    color: #333;
+   text-align: justify;
+    padding: 50px;
+  }
+
+  .advertisement-section h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .advertisement-section li{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .Explore-section{
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: left;
+    padding: 20px;
+
+  }
+
+  .Explore-section h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .Explore-section h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+  }
+  .Explore-section p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .Explore-section img{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .Explore-section a{
+    text-align: left;
+  }
+  
+
+
+
+  /*contact us*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font: sans-serif;
+    background-color: #f8f8f8;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    background-color:  rgb(46, 45, 45);
+    color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header .logo a {
+    text-decoration: none;
+    color: #f8f8f8; /* Change the color to white */
+    background-color: rgb(46, 45, 45);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+
+  header h1 {
+    font-size: 20px;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+  }
+  
+  section {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+    border: 1px solid black;
+  }
+  
+  section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color:  rgb(46, 45, 45);
+    color: #f8f8f8;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #f8f8f8;
+    color: black;
+    text-align-last: center;
+    padding: 10px;
+  }
+  
+
+
+/*About*/
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: sans-serif;
+  background-color: #f8f8f8;
+  font-size: 20px;
+}
+
+header {
+  background-color:  rgb(46, 45, 45);
+  color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header .logo a {
+  text-decoration: none;
+  color: #f8f8f8; /* Change the color to black */
+  background-color:  rgb(46, 45, 45);
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo a:hover {
+  background-color:   rgb(46, 45, 45);
+  color: #f8f8f8;
+}
+
+main {
+  padding: 20px;
+}
+
+.about-us {
+  background-color: #f8f8f8;
+  color: #333;
+  border: 1px solid #333; /* Change the color to black */
+  padding: 20px;
+  margin: 20px;
+}
+
+.about-us h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-us p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+/*tour*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font: sans-serif;
+  background-color: #f8f8f8;
+}
+
+header{
+  background-color: #333;
+  color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+
+}
+
+header, .logo{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header, .logo a {
+text-decoration: none;
+color: #f8f8f8;
+background-color: rgb(46, 45, 45);
+padding: 10px, 20px;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+
+h2{
+  font-size: 30px;
+  text-align: left;
+  background-color: #f8f8f8;
+  color: #333;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+section{
+  flex: 1 1 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  color: #333;
+  position: relative;
+}
+
+section img{
+  width: 100%;
+  height: auto;
+}
+
+.itinerary{
+  background-color: #f8f8f8;
+    color: #333;
+    text-align: left;
+    
+}
+
+
+.itinerary h3{
+  font-size: 24px;
+}
+
+.itinerary p{
+  font-size: 20px;
+  padding: 20px;
+}
+
+.details{
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: left;
+  padding: 20px;
+}
+.details p{
+  padding: 0px;
+}
+
+.book-button{
+  padding: 10px;
+    background-color:  rgb(46, 45, 45);
+    color: #f8f8f8;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+   color: #333;
+}
